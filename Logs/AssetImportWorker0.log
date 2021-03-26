@@ -11,6 +11,7 @@ D:\unity\2020.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 D:/projects_unity/GitHub/Playground-ar
 -logFile
 Logs/AssetImportWorker0.log
@@ -24,11 +25,27 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/projects_unity/GitHub/Playground-ar/Assets
+=======
+D:/Program Files/playground
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55793
+Successfully changed project path to: D:/Program Files/playground
+D:/Program Files/playground
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 191.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path D:/Program Files/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/playground/Assets
+>>>>>>> Stashed changes
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
     Vendor:   
+<<<<<<< Updated upstream
     VRAM:     3551 MB
     Driver:   26.20.11030.22001
 Initialize mono
@@ -42,11 +59,27 @@ Register platform support module: D:/unity/2020.3.0f1/Editor/Data/PlaybackEngine
 Registered in 0.001614 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 44.76 ms, found 0 plugins.
+=======
+    VRAM:     1983 MB
+    Driver:   27.21.14.5763
+Initialize mono
+Mono path[0] = 'D:/Program Files/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005567 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.59 ms, found 0 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  2.793 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -54,11 +87,21 @@ Registered in 0.000998 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+=======
+- Completed reload, in 13.943 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  1.675 seconds
 Platform modules already initialized, skipping
 ========================================================================
@@ -136,6 +179,32 @@ System memory in use after: 41.3 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1925.
 Total: 3.116800 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.053200 ms MarkObjects: 2.785000 ms  DeleteObjects: 0.041900 ms)
+=======
+- Completed reload, in  2.456 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 6.821400 ms (FindLiveObjects: 0.508600 ms CreateObjectMapping: 0.174600 ms MarkObjects: 5.844700 ms  DeleteObjects: 0.289700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 37.7 MB.
+System memory in use after: 37.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 6.095300 ms (FindLiveObjects: 0.545100 ms CreateObjectMapping: 0.351300 ms MarkObjects: 5.017100 ms  DeleteObjects: 0.177900 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   buildTarget: platform 13, subtarget 524288, extendedPlatform 0 -> platform 13, subtarget 537395200, extendedPlatform 0
