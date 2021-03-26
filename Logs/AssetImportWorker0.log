@@ -1,39 +1,114 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.867; Version 2009; 64bit' Language: 'ru' Physical Memory: 8043 MB
+OS: 'Windows 10 Home Single Language; OS build 18363.1440; Version 1909; 64bit' Language: 'ru' Physical Memory: 7103 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Program Files\2020.3.1f1\Editor\Unity.exe
+D:\unity\2020.3.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Program Files/New Unity Project
+D:/projects_unity/GitHub/Playground-ar
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57060
-Successfully changed project path to: D:/Program Files/New Unity Project
-D:/Program Files/New Unity Project
+63900
+Successfully changed project path to: D:/projects_unity/GitHub/Playground-ar
+D:/projects_unity/GitHub/Playground-ar
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 154.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
-[Subsystems] Discovering subsystems at path D:/Program Files/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Program Files/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projects_unity/GitHub/Playground-ar/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
     Vendor:   
-    VRAM:     1983 MB
-    Driver:   27.21.14.5763
+    VRAM:     3551 MB
+    Driver:   26.20.11030.22001
 Initialize mono
-Mono path[0] = 'D:/Program Files/2020.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Mono path[0] = 'D:/unity/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001107 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.715 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 2.809000 ms (FindLiveObjects: 0.225200 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.403400 ms  DeleteObjects: 0.130200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ProgrammManager.cs
+  artifactKey: Guid(b8429f52eae464f41a1c5044d14b1103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ProgrammManager.cs using Guid(b8429f52eae464f41a1c5044d14b1103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a704249ff5bbdf29c7a53f74e69a0af4') in 0.034191 seconds
+  Import took 0.038017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(246f3270e15f7a340bac9a5257cea541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(246f3270e15f7a340bac9a5257cea541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3232a9f441b13bd60840598b0203e7de') in 0.009951 seconds
+  Import took 0.013625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.522081 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(1c36330578c39da44973ae25f55d2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(1c36330578c39da44973ae25f55d2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc26393ecc1d05672be8b6a3dbcc63f4') in 0.059328 seconds
+  Import took 0.062529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.112565 seconds.
+  path: Assets/Scripts/Button.cs
+  artifactKey: Guid(2f8f98a1e4ad4804bb905723d02ee457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Button.cs using Guid(2f8f98a1e4ad4804bb905723d02ee457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d11e3ea7bd82eff88989f49508c26b1') in 0.022926 seconds
+  Import took 0.027071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047644 seconds.
+  path: Assets/Scripts/Button.cs
+  artifactKey: Guid(2f8f98a1e4ad4804bb905723d02ee457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Button.cs using Guid(2f8f98a1e4ad4804bb905723d02ee457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d11e3ea7bd82eff88989f49508c26b1') in 0.003176 seconds
+  Import took 0.007980 seconds .
+
