@@ -2,14 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class Scenes : MonoBehaviour
 {
-    // Start is called before the first frame update
-    
-        public void ChangeScenes(int numberScenes)
-        { 
-            SceneManager.LoadScene(numberScenes);
-        }
-    
+    public void StartButtonPressed()
+    {
+        SceneManager.LoadScene("_Camera");
+    }
+    public void CatalogPressed()
+    {
+        SceneManager.LoadScene("_Catalog");
+    }
+    public void SmetsPressed()
+    {
+        SceneManager.LoadScene("_Smets");
+    }
+    public void ExitPressed()
+    {
+        Application.Quit();
+    }
 }
