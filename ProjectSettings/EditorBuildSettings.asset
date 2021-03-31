@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Smets.unity
     guid: 8e8744dbea0c50b44851930bad82d177
+  - enabled: 1
+    path: Assets/Scenes/_Categories.unity
+    guid: bd22313e39bbb88429eaefa077587efd
   m_configObjects: {}
