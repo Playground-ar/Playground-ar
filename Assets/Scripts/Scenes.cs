@@ -16,6 +16,10 @@ public class Scenes : MonoBehaviour
     {
         SceneManager.LoadScene("_Smets");
     }
+    public void MenuPressed()
+    {
+        SceneManager.LoadScene("menu");
+    }
     public void ExitPressed()
     {
         Application.Quit();
