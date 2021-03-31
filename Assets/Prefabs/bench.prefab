@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 5093989779795277367}
   - component: {fileID: -3625256146383353562}
   - component: {fileID: 2062069096578535747}
+  - component: {fileID: -1995814796412207334}
   m_Layer: 3
   m_Name: bench
   m_TagString: Untagged
@@ -139,3 +140,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e421017f78e2624bb743406f5776b97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &-1995814796412207334
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618992719890918541}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: Infinity
+  m_AngularDrag: Infinity
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 2
+  m_Constraints: 112
+  m_CollisionDetection: 0

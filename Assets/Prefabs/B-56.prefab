@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4434491683828786016}
   - component: {fileID: 1995705513427586510}
   - component: {fileID: 7589244570123682783}
+  - component: {fileID: 8705142905399683188}
   m_Layer: 3
   m_Name: B-56
   m_TagString: Untagged
@@ -58,6 +59,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 119.13655, y: 204.27354, z: 35.501648}
   m_Center: {x: 0.41685486, y: 95.59911, z: 1.4430275}
+--- !u!54 &8705142905399683188
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945621792713456090}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: Infinity
+  m_AngularDrag: Infinity
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 2
+  m_Constraints: 120
+  m_CollisionDetection: 0
 --- !u!1 &5425819393908719875
 GameObject:
   m_ObjectHideFlags: 0
