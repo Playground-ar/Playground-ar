@@ -6,7 +6,7 @@ public class Scenes : MonoBehaviour
 {
     public void StartButtonPressed()
     {
-        SceneManager.LoadScene("_Camera");
+        SceneManager.LoadScene("SampleScene");
     }
     public void CatalogPressed()
     {
