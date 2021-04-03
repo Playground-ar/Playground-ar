@@ -40,6 +40,7 @@ public class ProgrammManager : MonoBehaviour
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
             Instantiate(ObjectToSpawn, hits[0].pose.position, ObjectToSpawn.transform.rotation);
+            SmetaManager.smeta.Add(SmetaManager.name.text,  int.Parse(SmetaManager.count.text));
             ObjectToSpawn = null;
             ChOb = false;
         }

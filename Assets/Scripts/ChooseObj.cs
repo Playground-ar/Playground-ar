@@ -20,6 +20,9 @@ public class ChooseObj : MonoBehaviour
     // Update is called once per frame
     void ChooseObjectFunction()
     {
+        //SmetaManager.smeta.Add(name,price);
+        SmetaManager.name.text = name;
+        SmetaManager.count.text = price.ToString();
         ProgrammManagerScript.ObjectToSpawn = ChosenObject;
         ProgrammManagerScript.ChOb = true;
     }
