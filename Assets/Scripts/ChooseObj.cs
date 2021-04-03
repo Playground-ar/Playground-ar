@@ -8,6 +8,8 @@ public class ChooseObj : MonoBehaviour
     private ProgrammManager ProgrammManagerScript;
     private Button button;
     public GameObject ChosenObject;
+    public int price = 0;
+    public string name;
     void Start()
     {
         ProgrammManagerScript = FindObjectOfType<ProgrammManager>();
