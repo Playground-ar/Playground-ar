@@ -10,6 +10,7 @@ public class ProgrammManager : MonoBehaviour
     private ARRaycastManager ARRaycastManagerScript;
     private Vector2 TouchPosition;
     public GameObject ObjectToSpawn;
+    public int ChooseCategory = 0;
     public bool ChOb = false;
 
     void Start()

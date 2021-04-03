@@ -28,4 +28,13 @@ public class Scenes : MonoBehaviour
     {
         SceneManager.LoadScene("menu");
     }
+    public void openCameraScene()
+    {
+        SceneManager.LoadScene("SampleScene",LoadSceneMode.Additive);
+    }
+    public void ope(int i)
+    {
+        Debug.Log(i);
+        SceneManager.LoadScene("SampleScene");
+    }
 }
