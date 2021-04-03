@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/_Camera.unity
-    guid: 3c29c51954e210e46b189cd643500a21
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/_Catalog.unity
     guid: 04aa070f4a7df6f46ba8b5e157ebe965
